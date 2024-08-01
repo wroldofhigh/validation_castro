@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Validation</title>
 </head>
 <body>
-    <form action="{{ url('user_task') }}" method="POST">
+    <form action="{{ url('user_tasks') }}" method="POST">
         @csrf
         <div>
             <label for="task_name">Task Name:</label>
