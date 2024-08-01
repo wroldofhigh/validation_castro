@@ -20,7 +20,7 @@ class UserTaskController extends Controller
      */
     public function create()
     {
-        return view('user_task');
+        return view('User_Task');
     }
 
     /**
